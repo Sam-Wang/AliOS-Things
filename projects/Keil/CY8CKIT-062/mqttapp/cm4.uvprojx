@@ -333,9 +333,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>MQTT_PRESS_TEST</Define>
+              <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\..\platform\mcu\cy8c6347\drivers\PSoC6;..\..\..\..\platform\mcu\cy8c6347\drivers\PSoC6\pdl\drivers\peripheral;..\..\..\..\platform\mcu\cy8c6347\drivers\PSoC6\pdl\cmsis\include;..\..\..\..\platform\mcu\cy8c6347\drivers\PSoC6\pdl\devices\psoc6\ip;..\..\..\..\platform\mcu\cy8c6347\drivers\PSoC6\pdl\devices\psoc6\psoc63\include;..\..\..\..\platform\mcu\cy8c6347\drivers\PSoC6\pdl\middleware;..\..\..\..\platform\mcu\cy8c6347\drivers;..\..\..\..\board\cy8ckit-062</IncludePath>
+              <IncludePath></IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -420,7 +420,7 @@
                 <v6WtE>2</v6WtE>
                 <v6Rtti>2</v6Rtti>
                 <VariousControls>
-                  <MiscControls>--via opts/activation.c_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -438,7 +438,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/activation.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -516,7 +516,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/alicrypto.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -714,7 +714,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/atparser.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -731,7 +731,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>board_b_l475e</GroupName>
+          <GroupName>board_cy8ckit-062</GroupName>
           <GroupOption>
             <CommonProperty>
               <UseCPPCompiler>0</UseCPPCompiler>
@@ -774,7 +774,7 @@
                 <v6WtE>2</v6WtE>
                 <v6Rtti>2</v6Rtti>
                 <VariousControls>
-                  <MiscControls>--via opts/board_b_l475e.c_opts</MiscControls>
+                  <MiscControls>--via opts/board_cy8ckit-062.c_opts</MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -792,7 +792,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/board_b_l475e.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -870,7 +870,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/base64.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -948,7 +948,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/cjson.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1031,7 +1031,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/cli.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1114,7 +1114,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/mqtt.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1197,7 +1197,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/MQTTPacket.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1300,7 +1300,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/digest_algorithm.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1393,7 +1393,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/fota.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1486,7 +1486,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/fota_download.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1564,7 +1564,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/download_http.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1642,7 +1642,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/socket_stand.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1720,7 +1720,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/fota_platform.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1798,7 +1798,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/fota_mqtt_transport.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1881,7 +1881,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/framework.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -1964,7 +1964,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/hal.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -2047,7 +2047,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/kernel_init.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -2125,7 +2125,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/newlib_stub.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -2203,7 +2203,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/log.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -2281,7 +2281,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/mbedtls.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -2699,7 +2699,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/kv.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -2777,7 +2777,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/mqttapp.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -2855,7 +2855,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/netmgr.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -2955,7 +2955,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>stm32l475</GroupName>
+          <GroupName>cy8c6347</GroupName>
           <GroupOption>
             <CommonProperty>
               <UseCPPCompiler>0</UseCPPCompiler>
@@ -2998,7 +2998,7 @@
                 <v6WtE>2</v6WtE>
                 <v6Rtti>2</v6Rtti>
                 <VariousControls>
-                  <MiscControls>--via opts/stm32l475.c_opts</MiscControls>
+                  <MiscControls>--via opts/cy8c6347.c_opts</MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -3016,7 +3016,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/stm32l475.as_opts</MiscControls>
+                  <MiscControls>--via opts/cy8c6347.as_opts</MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -3244,7 +3244,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/iotkit.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -3457,7 +3457,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/rhino.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -3655,7 +3655,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/sal.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -3758,7 +3758,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/device_sal_mk3060.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -3841,7 +3841,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/vcall.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -3919,7 +3919,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/vfs.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
@@ -4022,7 +4022,7 @@
                 <useXO>2</useXO>
                 <uClangAs>2</uClangAs>
                 <VariousControls>
-                  <MiscControls>--via opts/yloop.as_opts</MiscControls>
+                  <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
                   <IncludePath></IncludePath>
